@@ -1,0 +1,109 @@
+*{ /*RESETANDO AS CONFIGURAÇÕES DE CSS DO NAVEGADOR*/
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 200vh;
+
+    background-color: #d2b7d3;
+    
+    background-attachment:scroll;
+    height: 100px;
+    background-image:url(Images/3.png), url(Images/4.png);
+    background-repeat: no-repeat, repeat;
+    background-size: cover;    
+}
+
+.form1{
+    max-width:300px;
+    min-height: 40vh;
+    padding: 2rem;
+
+    position: absolute;
+    top: 200px;
+    left: 1100px;
+
+    border-radius: 10px;
+    background: linear-gradient(to left, #3700ff, #c300ff);
+    box-shadow: 3px 3px 10px rgba(98, 0, 117, 0.63);
+}
+
+.input-name{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.input-email{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+form input[type = "text"]{
+    border: 0.4px solid black;
+    padding: 5px;
+    margin-top: 1rem;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+.input-cadastro{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+form input[type = "submit"]{
+    margin-top: 2rem;
+    margin-left: 30px;
+    padding: 10px;
+    background: linear-gradient(to left, #b72fec, #FF4068);
+    cursor: pointer;
+    font-size: xx-large;  
+    font-family: 'Poppins', sans-serif;
+    color: white; 
+    border-radius: 7px; 
+}
+
+.portifolio{
+    display: flex;    
+    justify-content:left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#texto-inicial{
+    color: white;
+    margin-top: 400px;
+    margin-left: 190px;
+    margin-bottom: 500px; /*ajustar*/
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.imagens{
+    display: flex;
+    justify-content: space-around;
+    box-sizing:border-box;
+}
+
+.foto{
+    width: 300px;
+    height:300px;
+
+    border: 1px solid rgb(91, 0, 109);
+    border-radius: 10px;
+
+    display: flex;
+    background: linear-gradient(to left, #b72fec, #FF4068);
+
+    padding: 25px;
+    margin-bottom: 100px;
+   
+}
