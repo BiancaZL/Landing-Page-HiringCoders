@@ -4,3 +4,5 @@ Desafio Hiring Coders - Criar um sistema de e-commerce para cadastro de email na
 
 Feito em HTML e CSS.
 Javascript foi usado apenas para armazenar os dados de cadastro no local storage.
+
+Hospedado no Netlify: https://blackfriday-games.netlify.app/
